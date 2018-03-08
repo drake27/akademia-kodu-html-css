@@ -6,7 +6,15 @@
 		}
 		header{
 			background-color: #84cb00;
-			padding: 5px;
+			background-image: url('images/cars.jpg');
+			background-repeat: no-repeat;
+			background-position: center;
+            padding: 5px;
+            text-align: center;
+		}
+		header h1{
+			color: #fff;
+			text-shadow: 2px 2px #00;
 		}
 		header nav{
 
