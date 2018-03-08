@@ -19,6 +19,12 @@
 				background: #0a700a;
 
 		}
+		header nav a:hover{
+			background: rgb(8, 253, 8);
+		}
+		main section a:hover{
+			font-weight: bold;
+		}
 		main{
 			background: white;
 			padding; 5px;
@@ -27,6 +33,22 @@
 		main section{
 			overflow: hidden;
 		}
+		.background-green{
+			background: green;
+		}
+		.background-red{
+			background: red;
+		}
+		.background-aqua{
+			background: aqua;
+		}
+		.top-headline{
+			color: blue;
+		}
+		.main-link{
+			text-transform: uppercase;
+		}
+		
 		main section p img{
             float: left;
 			width: 200 px;
