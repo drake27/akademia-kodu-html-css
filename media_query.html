@@ -9,26 +9,37 @@
 			background: green;
 			widows: 100px;
 		}
-		
+			.child{
+					float:left;
+					width: 50%;
+					height: 50px;
+				
+			}
 		@media only screen and (max-width: 1024px){
-			.box{
-				background: orange;
+		
+			.child{
+					
+					width: 100%;
+					
+				
 			}
-			@media only screen and (max-width: 640px){
-			.box{
-				background: orange;
+		}
+			.green{
+				background: green;
 			}
-			@media only screen and (max-width: 320px){
-			.box{
-				background: orange;
+			.blue{
+				background: blue;
 			}
-
+	
+             
 		
 	</style>
 </head>
 <body>
-	<div class="box">
-	Hello World 
+
+	<div class="parent">
+	<div class="child green">Hello</div>
+	<div class="child blue">Hello</div>
 	</div>
 </body>
 </html>
