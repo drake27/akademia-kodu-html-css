@@ -4,7 +4,25 @@
 	<meta charset="utf-8">
 	<title>AutoBlog.pl</title>
 	<link rel="stylesheet" href="style.css" type="text/css">
-	
+	<style >
+
+        .article{
+          display:inline-block;
+          position: relative;
+
+        }
+        .article .counter{
+          position: absolute;
+          padding: 5px;
+          background: red;
+          left: 100%;
+          top:0;
+          width: 20px;
+          margin-left: -10px;
+          font-size: 10px;
+          margin-top:-5px;
+        }
+  </style>
   </head>
   <body>
   	
@@ -12,9 +30,15 @@
   	<h1>AutoBlog</h1>
 
   	<nav>
-  		<a href="index.html">Strona główna</a>
+      <div class="display-inline-block">
+  		<a href="index.html" class="article">
+       Strona główna
+       <div class="counter">12</div>
+      </a>
+      
   		<a href="wspolpraca.html">Współpraca</a>
   		<a href="kontakt.html">Kontakt</a>
+      </div>
   	</nav>	
   	</header>
   	<main>
@@ -23,7 +47,7 @@
   			<p class="background-red">
   				<img src="images/mercedes.jpg" alt="Mercedes Benz 3.0">
 
-  			Pojawił się nowy model Mercedesa!</p>
+  			<p>Pojawił się nowy model Mercedesa!</p>
   			<a href="nowy_mercedes.html">Kliknij i zobacz.</a>
   		</section>
   		<hr>
