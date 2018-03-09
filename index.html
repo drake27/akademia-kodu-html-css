@@ -1,64 +1,58 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-	<meta charset="utf-8">
-	<title>AutoBlog.pl</title>
-	<link rel="stylesheet" href="style.css" type="text/css">
-	<style >
+    <head>
+        <!-- Hello comment! -->
+        <meta charset="UTF-8">
+        <title>AutoBlog.pl</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" type="text/css">
 
-        .article{
-          display:inline-block;
-          position: relative;
+        <style>
+            @media only screen and (max-width: 800px) {
+                main section p img {
+                    width: 100%;
+                    margin: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
 
-        }
-        .article .counter{
-          position: absolute;
-          padding: 2px;
-          background: red;
-          left: 100%;
-          top:0;
-          width: 20px;
-          margin-left: -10px;
-          font-size: 10px;
-          margin-top:-7px;
-        }
-  </style>
-  </head>
-  <body>
-  	
-  	<header>
-  	<h1>AutoBlog</h1>
+        <header>
+            <h1>AutoBlog</h1>
+            <nav>
+                <a href="index.html" class="article">
+                    Strona główna
+                    <div class="counter">
+                        2
+                    </div>
+                </a>
+                <a href="wspolpraca.html">Współpraca</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+        </header>
 
-  	<nav>
-      
-  		<a href="index.html" class="article">
-       Strona główna
-       <div class="counter">12</div>
-      </a>
-      
-  		<a href="wspolpraca.html">Współpraca</a>
-  		<a href="kontakt.html">Kontakt</a>
-      
-  	</nav>	
-  	</header>
-  	<main>
-  		<section>
-  			<h2>Nowy Mercedes</h2>
-  			<p class="background-red">
-  				<img src="images/mercedes.jpg" alt="Mercedes Benz 3.0">
+        <main>
+            <section>
+                <h2>Nowy Mercedes</h2>
+                <p>
+                    <img src="images/mercedes.jpg" alt="Mercedes Benz 3.0">
+                    Pojawił się nowy model Mercedesa!
+                </p>
+                <a href="nowy_mercedes.html">Kliknij i zobacz</a>
+            </section>
 
-  			<p>Pojawił się nowy model Mercedesa!</p>
-  			<a href="nowy_mercedes.html">Kliknij i zobacz.</a>
-  		</section>
-  		<hr>
-  		<section>
-  			<h2 "background-green">Testy Passata</h2>
-  			<p>Typowy Mirek bierze na warsztat noweg VW.</p>
-  			<a href="testy_passata.html">Kliknij i zobacz.</a>
-  		</section>
-  	</main>
-  	<footer>
-  		&copy; AutoBlog 2018
-  	</footer>
-  </body>
+            <hr>
+
+            <section>
+                <h2>Testy Passata</h2>
+                <p>Typowy Mirek bierze na warsztat nowego VW.</p>
+                <a href="testy_passata.html">Kliknij i zobacz</a>
+            </section>
+        </main>
+
+        <footer>
+            &copy; AutoBlog 2018
+        </footer>
+    </body>
 </html>
