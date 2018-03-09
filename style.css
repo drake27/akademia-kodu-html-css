@@ -25,10 +25,13 @@
 		header nav a{
 				color: #fff;
 				background: #0a700a;
+				padding: 5px;
+				margin: 0 5px;
 
 		}
 		header nav a:hover{
 			background: rgb(8, 253, 8);
+
 		}
 		main section a:hover{
 			font-weight: bold;
