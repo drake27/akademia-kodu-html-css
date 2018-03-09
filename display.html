@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+   <head>
+       <!-- komentarz -->
+       <meta charset="UTF-8">
+       <title>UnitedBlog.pl</title>
+       
+       <style>
+
+       * {
+           box-sizing: border-box;
+       }
+       .displays-wrapper {
+           position: relative;
+           background-color: blue;
+
+       }
+
+       .displays-wrapper div{
+           background-color: yellow;
+       }
+
+       .display-block {
+           display: block;
+
+       }
+
+       .display-inline-block {
+           display: inline-block;
+           width: 50%;
+           float: left;
+
+       }
+
+       .display-inline {
+           display: inline;
+
+       }
+
+       .border {
+           border: 2px dotted green;
+       }
+
+       .display-none {
+           display: none;
+       }
+
+       .orange {
+           background: orange !important;
+       }
+
+       </style>
+   </head>
+   <body>
+           <!-- <div class="displays-wrapper">
+               <div class="display-inline-block">
+                   Hello inline!
+               </div>
+               <div class="display-inline-block">
+                   Hello inline again2!
+               </div>
+           </div> -->
+
+           <div class="displays-wrapper">
+               <div class="display-inline-block border">
+                   Inline block 1
+               </div>
+               <div class="display-inline-block orange border">
+                   Inline block 2
+               </div>
+           </div>
+           <div class="displays-wrapper">
+               <div class="display-inline-block border orange">
+                   Inline block 3
+               </div>
+               <div class="display-inline-block border">
+                   Inline block 4
+               </div>
+           </div>
+
+               
+
+   </body>
+   </html>
